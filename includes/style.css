@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+    font-family: 'Abel', sans-serif;
+    opacity: .95;
+    padding: 2.5%;
+}
+.container{
+    margin: auto;
+    background-color: #fff;
+    width:45%;
+    border-radius: 15px;
+    box-shadow:  4px 4px 4px 2px rgba(0,0,0,0.2);
+}  
+.container2{
+    float: right;
+    background-color: #fff;
+    width:45%;
+    border-radius: 15px;
+    box-shadow:  4px 4px 4px 2px rgba(0,0,0,0.2);
+}  
+.container3{
+    float: left;
+    background-color: #fff;
+    width:53%;
+    border-radius: 15px;
+    box-shadow:  4px 4px 4px 2px rgba(0,0,0,0.2);
+    padding: 2%;
+}
+.heading{
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+}
+.btn{
+    margin-left: 25%;
+    margin-bottom: 20px;
+    width: 320px;
+    height:40px;
+    border-radius: 5px;
+    background-color:#ffccf5;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+.btn2{
+    appearance: button;
+    width: 320px;
+    border-radius: 10px;
+    background-color: #ffccf5;
+    font-size: 20px;
+    padding: 10px;
+    margin: 5%;
+    color: #fff;
+    text-align:center;
+    text-decoration:none;
+}    
+.input-box{
+    margin-left: 25%;
+    width: 320px;
+    height:40px;
+    border: 0.5px solid #d8d8d8;
+    border-radius: 5px; 
+    text-align: center;
+}
+.input-text{
+    margin-left: 25%;
+    width: 320px;
+    border: 0.5px solid #d8d8d8;
+    border-radius: 5px; 
+    text-align: center;
+}
+.illust1{
+    width: 35%;
+    margin-left: 32.5%;
+}
+.illust2{
+    border-radius:15px;
+    width: 100%;
+}
+.chkbx{
+    margin-left: 22%;
+}
+
+.validation_errors{
+    color: red;
+    margin-left: 25%;
+}
+.foot{
+    font-size: 13px;
+    color: #949494;
+    margin-left: 2%;
+    padding:15px;
+}
+.foot a {color:#fdbcf0; }
+.table1 {margin: auto;width: 80%;}
+.table2 {margin-left: auto;margin-right: auto; border-collapse: collapse; border:none;}
+.table2 th {background-color: #ffccf5; color: white; padding: 5px; }
+.table2 td {padding: 5px; }
